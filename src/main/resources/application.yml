@@ -1,0 +1,29 @@
+logging:
+  level:
+    io:
+      modelcontextprotocol:
+        client: DEBUG
+        spec: DEBUG
+
+spring:
+  application:
+    name: spring-boot-ai-mcp-client
+  ai:
+    openai:
+      api-key: "<your-gemini-api-key>"
+      base-url: https://generativelanguage.googleapis.com/v1beta/openai
+      chat:
+        completions-path: /chat/completions
+        options:
+          model: gemini-2.0-flash-exp
+    mcp:
+      client:
+        stdio:
+          connections:
+            filesystem:
+              command: "npx"
+              args:
+                - "-y"
+                - "@modelcontextprotocol/server-filesystem"
+                - "/Users/username/Desktop"
+                - "/Users/username/Downloads"
