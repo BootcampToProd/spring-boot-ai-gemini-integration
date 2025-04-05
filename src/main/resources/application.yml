@@ -7,7 +7,7 @@ logging:
 
 spring:
   application:
-    name: spring-boot-ai-mcp-client
+    name: spring-boot-ai-gemini-integration
   ai:
     openai:
       api-key: "<your-gemini-api-key>"
