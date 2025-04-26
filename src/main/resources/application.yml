@@ -18,6 +18,8 @@ spring:
           model: gemini-2.0-flash-exp
     mcp:
       client:
+        toolcallback:
+          enabled: true
         stdio:
           connections:
             filesystem:
