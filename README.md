@@ -23,3 +23,6 @@ This repository demonstrates how to integrate **Google Gemini** with **Spring AI
 
 For a complete walkthrough and explanation of the integration, read our blog:
 [Integrating Google Gemini with Spring AI: Free LLM Access for Your POC](https://bootcamptoprod.com/integrating-google-gemini-with-spring-ai/)
+
+🎥 **Visual Learning**: Prefer video tutorials? Watch our step-by-step implementation guide on YouTube.<br>
+👉 [Spring AI + Google Gemini: Free LLM Integration 🚀](https://youtu.be/pGYlsuNUeMI)
